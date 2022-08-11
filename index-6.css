@@ -1,0 +1,181 @@
+.library {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 120px;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  background-color: rgb(255, 206, 51);
+}
+
+.library_style {
+  display: flex;
+  justify-content: space-between;
+}
+.library_style span {
+  font-weight: 600;
+}
+.form_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form_style ::placeholder {
+  opacity: 0.3;
+}
+
+.form input {
+  width: 500px;
+  height: 45px;
+  border-radius: 100px;
+  border-style: none;
+  padding-left: 30px;
+}
+
+.form button {
+  opacity: 0.3;
+  position: absolute;
+  right: 5%;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.form input:focus {
+  outline: none;
+}
+.title {
+  padding-bottom: 25px;
+}
+
+main {
+  background-color: rgb(252, 252, 252);
+}
+
+.content {
+  padding: 50px 20px;
+  padding-bottom: 20px;
+}
+
+.main_content img {
+  width: 120px;
+  height: 200px;
+  border-radius: 20px;
+}
+.main_content {
+  display: flex;
+}
+
+.content-text {
+  margin-left: 20px;
+}
+
+.main_content_name,
+.main_content_author,
+.rate {
+  margin-bottom: 20px;
+}
+.main_content_name {
+  font-size: 25px;
+}
+.main_content_author {
+  opacity: 0.5;
+}
+.genre {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.button_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #ebebeb;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.bookmark {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 206, 51);
+  border-radius: 20px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.recommended {
+  padding: 0px 20px;
+}
+
+.recommended_movie {
+  display: flex;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.recommended_movie img {
+  width: 100px;
+  height: 140px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.director {
+  padding: 20px 20px;
+}
+.director_title,
+.recommended_title,
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.director_conent {
+  display: flex;
+  margin-top: 20px;
+}
+
+.director_image img {
+  width: 120px;
+  height: 160px;
+  border-radius: 20px;
+}
+.director_text {
+  margin-left: 20px;
+}
+.director_name {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.director_content {
+  opacity: 0.6;
+}
